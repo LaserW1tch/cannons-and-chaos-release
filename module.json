@@ -1,0 +1,76 @@
+{
+  "id": "cannons-and-chaos",
+  "title": "Cannons & Chaos",
+  "description": "Merged Cannons & Chaos package: importer/content, custom naval ship sheet, treasury/tools, and macro automations in one module for fresh-world installs.",
+  "version": "0.20.74",
+  "url": "https://www.patreon.com/LaserW1tch",
+  "manifest": "https://raw.githubusercontent.com/LaserW1tch/cannons-and-chaos-release/main/module.json",
+  "download": "https://github.com/LAserW1tch/cannons-and-chaos-release/raw/main/cannons-and-chaos.zip",
+  "readme": "https://raw.githubusercontent.com/LaserW1tch/cannons-and-chaos/main/README.md",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.350"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.0.0",
+          "verified": "5.2.5"
+        }
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "LaserW1tch",
+      "url": "https://www.patreon.com/LaserW1tch"
+    }
+  ],
+  "scripts": [
+    "scripts/cannons-and-chaos.js"
+  ],
+  "packs": [
+    {
+      "name": "ships",
+      "label": "Cannons & Chaos: Ships",
+      "path": "packs/actors",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "journal",
+      "label": "Cannons & Chaos: Rules",
+      "path": "packs/journal",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "items",
+      "label": "Cannons & Chaos: Components",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e"
+    }
+  ],
+  "flags": {},
+  "esmodules": [
+    "scripts/merged-init.js",
+    "scripts/module.js",
+    "scripts/api-standalone.js",
+    "scripts/api-bootstrap.js",
+    "scripts/macro-bootstrap.js"
+  ],
+  "styles": [
+    "styles/ship-sheet.css",
+    "styles/role-manager.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]
+}
