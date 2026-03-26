@@ -5,8 +5,8 @@
   "version": "0.20.74",
   "url": "https://www.patreon.com/LaserW1tch",
   "manifest": "https://raw.githubusercontent.com/LaserW1tch/cannons-and-chaos-release/main/module.json",
-  "download": "https://github.com/LAserW1tch/cannons-and-chaos-release/raw/main/cannons-and-chaos.zip",
-  "readme": "https://raw.githubusercontent.com/LaserW1tch/cannons-and-chaos/main/README.md",
+  "download": "https://github.com/LaserW1tch/cannons-and-chaos-release/raw/main/cannons-and-chaos.zip",
+  "readme": "https://raw.githubusercontent.com/LaserW1tch/cannons-and-chaos-release/main/README.md",
   "compatibility": {
     "minimum": "13",
     "verified": "13.350"
