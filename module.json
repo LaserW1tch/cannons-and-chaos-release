@@ -2,7 +2,7 @@
   "id": "cannons-and-chaos",
   "title": "Cannons & Chaos",
   "description": "Merged Cannons & Chaos package: importer/content, custom naval ship sheet, treasury/tools, and macro automations in one module for fresh-world installs.",
-  "version": "0.20.85",
+  "version": "0.20.98",
   "url": "https://www.patreon.com/LaserW1tch",
   "manifest": "https://raw.githubusercontent.com/LaserW1tch/cannons-and-chaos-release/main/module.json",
   "download": "https://github.com/LaserW1tch/cannons-and-chaos-release/raw/main/cannons-and-chaos.zip",
